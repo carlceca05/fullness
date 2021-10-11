@@ -1,3 +1,10 @@
+.dos{
+    background-image:  url(../img/tres.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
 .img1{
     background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/comuni.jpg);
     background-position: center;
