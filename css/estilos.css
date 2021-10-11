@@ -1,0 +1,191 @@
+.img1{
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/comuni.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.branding{
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/branding.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.reuniones{
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/reuniones.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.comunicacion{
+    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/min6.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+.textura{
+    background-image: url(../img/nuevo.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;  
+
+}
+.textura2{
+    background-image: url(../img/nuevo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    animation: fondoso 70s ease;   
+}
+@keyframes fondoso{
+    from{
+        transform: scale(1) rotate(0deg);
+       }
+    to{
+        transform: scale(1.5) rotate(0.1deg);
+       
+        }
+} 
+
+@keyframes wii{
+    from{
+        transform:scale(1)
+    }
+    to{
+        transform:scale(1.5)
+    }
+
+}
+.centro{
+    animation:wii 80s;
+}
+
+
+
+/* pruebas*/
+.padre{
+    display: flex;
+    
+
+}
+.mosaico {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/reuniones.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 300px;
+    height: 170px;
+ }
+ .mosaico p {
+     display: none;
+ }
+ 
+.mosaico:hover {
+    background-image: url(../img/reuniones.webp);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.mosaico:hover p{
+    display: block;
+} 
+
+.mosaico2 {
+    background-image: radial-gradient(circle at left,rgba(31, 34, 120, 0.331) 0%,rgba(21, 13, 108, 0.5) 100%),  url(../img/min6.webp);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 300px;
+    height: 170px;
+ }
+.mosaico2:hover {
+    background-image: url(../img/min6.webp);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+
+
+
+
+/*
+@keyframes zoom{
+    from{
+        transform:scale(1,1)
+    }
+    to
+    {transform:scale(1.5,1.5)}}.center-block{-webkit-animation:zoom 80s;animation:zoom 80s;}
+*/
+
+.sombra{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
+}
+.sombra2{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
+}
+.amarillo{
+    background-color: rgb(248, 212, 36);
+    height: 7px;
+    width: 5%;
+    left: 47%;
+    position: relative;
+}
+
+
+.arriba{
+    position: fixed;
+    right: 22px;
+    text-align: center;
+    line-height: 50px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(180,180,180,.7);
+    border-radius: 25px;
+    color: #fff;
+    vertical-align: middle;
+    z-index: 999;
+}
+.appwhatsapp{
+    position: fixed;
+    right: 20px;
+    bottom: 80px;
+    width: 50px;
+    height: 50px;
+    z-index: 1000;
+    
+}
+
+.appwhatsapp img{
+width: 50px;
+height: auto;
+}
+
+
+
+
+
+@media only screen and (min-width:300px) and (max-width:900px){
+    
+    .desaparece{
+        display: none;
+    }
+    .redonda{
+        display: none;
+    }
+    .textura{
+        background-image: url(../img/movil.png);
+    }
+    .texto{
+        color:#fff;
+    }
+    
+    
+}
+@media only screen and (min-width:901px) and (max-width:3000px){
+   
+    .aparece{
+        display: none;
+    }
+}
+
