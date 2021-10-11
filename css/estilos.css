@@ -73,8 +73,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
+    margin-right: 10px;
  }
  .mosaicocomunicacion p {
      display: none;
@@ -95,8 +96,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
+    margin-right: 10px;
  }
 .mosaicoliderazgo:hover {
     background-image: url(../img/liderago_consciente.jpg);
@@ -108,8 +110,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
+    margin-right: 10px;
  }
 .mosaicotrabajo:hover {
     background-image: url(../img/comuni.jpg);
@@ -121,7 +124,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
  }
 .mosaicoinstructores:hover {
@@ -134,8 +137,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
+    margin-right: 10px;
  }
 .mosaicosolucion:hover {
     background-image: url(../img/solucion_problemas.jpg);
@@ -147,8 +151,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
+    margin-right: 10px;
  }
 .mosaicoflujo:hover {
     background-image: url(../img/flujo_recursos.jpg);
@@ -160,8 +165,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
+    margin-right: 10px;
  }
 .mosaicomarketing:hover {
     background-image: url(../img/marketing_interno.jpg);
@@ -173,11 +179,52 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 330px;
+    width: 320px;
     height: 170px;
  }
 .mosaicoproyeccion:hover {
     background-image: url(../img/proyeccion.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicoreuniones {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/reuniones.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 320px;
+    height: 170px;
+    margin-right: 10px;
+ }
+.mosaicoreuniones:hover {
+    background-image: url(../img/reuniones.webp);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicovision {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/vision_estrategica.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 320px;
+    height: 170px;
+    margin-right: 10px;
+ }
+.mosaicovision:hover {
+    background-image: url(../img/vision_estrategica.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicosimplicidad {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/05-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 320px;
+    height: 170px;
+ }
+.mosaicosimplicidad:hover {
+    background-image: url(../img/05-1.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
