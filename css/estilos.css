@@ -67,39 +67,117 @@
     
 
 }
-.mosaico {
-    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/reuniones.webp);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: transform .2s; /* Animation */
-    width: 300px;
-    height: 170px;
- }
- .mosaico p {
-     display: none;
- }
- 
-.mosaico:hover {
-    background-image: url(../img/reuniones.webp);
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-
-.mosaico:hover p{
-    display: block;
-} 
-
-.mosaico2 {
-    background-image: radial-gradient(circle at left,rgba(31, 34, 120, 0.331) 0%,rgba(21, 13, 108, 0.5) 100%),  url(../img/min6.webp);
+.mosaicocomunicacion {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/min6.webp);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 300px;
+    width: 330px;
     height: 170px;
  }
-.mosaico2:hover {
+ .mosaicocomunicacion p {
+     display: none;
+ }
+ 
+.mosaicocomunicacion:hover {
     background-image: url(../img/min6.webp);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.mosaicocomunicacion:hover p{
+    display: block;
+} 
+
+.mosaicoliderazgo {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/liderago_consciente.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 170px;
+ }
+.mosaicoliderazgo:hover {
+    background-image: url(../img/liderago_consciente.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicotrabajo {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/comuni.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 170px;
+ }
+.mosaicotrabajo:hover {
+    background-image: url(../img/comuni.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicoinstructores {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/instructores_profesionales.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 170px;
+ }
+.mosaicoinstructores:hover {
+    background-image: url(../img/instructores_profesionales.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicosolucion {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/solucion_problemas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 170px;
+ }
+.mosaicosolucion:hover {
+    background-image: url(../img/solucion_problemas.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicoflujo {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/flujo_recursos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 170px;
+ }
+.mosaicoflujo:hover {
+    background-image: url(../img/flujo_recursos.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicomarketing {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/marketing_interno.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 170px;
+ }
+.mosaicomarketing:hover {
+    background-image: url(../img/marketing_interno.jpg);
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicoproyeccion {
+    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/proyeccion.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform .2s; /* Animation */
+    width: 330px;
+    height: 170px;
+ }
+.mosaicoproyeccion:hover {
+    background-image: url(../img/proyeccion.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
