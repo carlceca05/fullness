@@ -36,6 +36,9 @@
     background-size: cover ;
     animation: fondoso 70s ease;   
 }
+
+
+
 @keyframes fondoso{
     from{
         transform: scale(1) rotate(0deg);
@@ -57,6 +60,21 @@
 }
 .centro{
     animation:wii 80s;
+}
+
+.sobrepuesto{
+    position: relative;
+    top:-60px;
+    z-index: 25;
+}
+.sombra{
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
+}
+.fondo2{
+    background-image:radial-gradient(circle at left,rgb(255, 247, 0, 0.5) 30%,rgba(253, 203, 0, 0.5) 70%),  url(../img/comuni.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 
 
