@@ -4,6 +4,11 @@
     background-repeat: no-repeat;
     background-size: cover ;
 }
+.info{
+    position: absolute;
+    bottom: 30%;
+
+}
 
 .img1{
     background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/comuni.jpg);
@@ -34,7 +39,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;  
-
 }
 .textura2{
     background-image: url(../img/nuevo2.jpg);
@@ -68,6 +72,10 @@
 .centro{
     animation:wii 80s;
 }
+.ancho{
+    width: 100%;
+}
+
 
 .sobrepuesto{
     position: relative;
@@ -329,6 +337,19 @@ height: auto;
     .texto{
         color:#fff;
     }
+    .info{
+        bottom: 0px;
+    }
+    .ancho{
+        width: auto;
+    }
+    
+    
+}
+@media only screen and (min-width:900px) and (max-width:1100px){
+    .info{
+        bottom: 10px;
+    }
     
     
 }
@@ -337,5 +358,6 @@ height: auto;
     .aparece{
         display: none;
     }
+    
 }
 
