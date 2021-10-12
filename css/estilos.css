@@ -7,9 +7,7 @@
 .info{
     position: absolute;
     bottom: 30%;
-
 }
-
 .img1{
     background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/comuni.jpg);
     background-position: center;
@@ -47,19 +45,14 @@
     background-size: cover ;
     animation: fondoso 70s ease;   
 }
-
-
-
 @keyframes fondoso{
     from{
         transform: scale(1) rotate(0deg);
        }
     to{
-        transform: scale(1.5) rotate(0.1deg);
-       
+        transform: scale(1.5) rotate(0.1deg);     
         }
 } 
-
 @keyframes wii{
     from{
         transform:scale(1)
@@ -67,7 +60,6 @@
     to{
         transform:scale(1.5)
     }
-
 }
 .centro{
     animation:wii 80s;
@@ -75,8 +67,6 @@
 .ancho{
     width: 100%;
 }
-
-
 .sobrepuesto{
     position: relative;
     top:-60px;
@@ -91,15 +81,7 @@
     background-repeat: no-repeat;
     background-size: cover ;
 }
-
-
-
-/* pruebas*/
-.padre{
-    display: flex;
-    
-
-}
+/* MOSAICOS */
 .mosaicocomunicacion {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/min6.webp);
     background-position: right;
@@ -109,16 +91,14 @@
     width: 320px;
     height: 170px;
     margin-right: 10px;
- }
- .mosaicocomunicacion p {
-     display: none;
- }
- 
+}
+.mosaicocomunicacion p {
+    display: none;
+}
 .mosaicocomunicacion:hover {
     background-image: url(../img/min6.webp);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
 .mosaicocomunicacion:hover p{
     display: block;
 } 
@@ -127,7 +107,6 @@
     padding: 1px;
     color: white;
 }
-
 .mosaicoliderazgo {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/liderago_consciente.jpg);
     background-position: right;
@@ -137,7 +116,7 @@
     width: 320px;
     height: 170px;
     margin-right: 10px;
- }
+}
 .mosaicoliderazgo:hover {
     background-image: url(../img/liderago_consciente.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -373,13 +352,15 @@
 width: 50px;
 height: auto;
 }
+.esfera{
+    height: 65vh;
+}
 
 
 
 
 
 @media only screen and (min-width:300px) and (max-width:900px){
-    
     .desaparece{
         display: none;
     }
@@ -398,21 +379,18 @@ height: auto;
     .ancho{
         width: auto;
     }
-    
-    
+    .esfera{
+        height: auto;
+    }
 }
 @media only screen and (min-width:900px) and (max-width:1100px){
     .info{
         bottom: 10px;
     }
-    
-    
 }
 @media only screen and (min-width:901px) and (max-width:3000px){
-   
     .aparece{
         display: none;
     }
-    
 }
 
