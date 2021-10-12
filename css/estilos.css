@@ -122,6 +122,11 @@
 .mosaicocomunicacion:hover p{
     display: block;
 } 
+.mosaicocomunicacion:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
+}
 
 .mosaicoliderazgo {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/liderago_consciente.jpg);
@@ -137,6 +142,11 @@
     background-image: url(../img/liderago_consciente.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.mosaicoliderazgo:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
+}
 .mosaicotrabajo {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/comuni.jpg);
     background-position: center;
@@ -151,6 +161,11 @@
     background-image: url(../img/comuni.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.mosaicotrabajo:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
+}
 .mosaicoinstructores {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/instructores_profesionales.jpg);
     background-position: center;
@@ -163,6 +178,11 @@
 .mosaicoinstructores:hover {
     background-image: url(../img/instructores_profesionales.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicoinstructores:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
 }
 .mosaicosolucion {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/solucion_problemas.jpg);
@@ -178,6 +198,11 @@
     background-image: url(../img/solucion_problemas.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.mosaicosolucion:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
+}
 .mosaicoflujo {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/flujo_recursos.jpg);
     background-position: center;
@@ -191,6 +216,11 @@
 .mosaicoflujo:hover {
     background-image: url(../img/flujo_recursos.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicoflujo:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
 }
 .mosaicomarketing {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/marketing_interno.jpg);
@@ -206,6 +236,11 @@
     background-image: url(../img/marketing_interno.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.mosaicomarketing:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
+}
 .mosaicoproyeccion {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/proyeccion.jpg);
     background-position: center;
@@ -218,6 +253,11 @@
 .mosaicoproyeccion:hover {
     background-image: url(../img/proyeccion.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicoproyeccion:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
 }
 .mosaicoreuniones {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/reuniones.webp);
@@ -233,6 +273,11 @@
     background-image: url(../img/reuniones.webp);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.mosaicoreuniones:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
+}
 .mosaicovision {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/vision_estrategica.jpg);
     background-position: center;
@@ -247,6 +292,11 @@
     background-image: url(../img/vision_estrategica.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+.mosaicovision:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
+}
 .mosaicosimplicidad {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/05-1.jpg);
     background-position: center;
@@ -259,6 +309,11 @@
 .mosaicosimplicidad:hover {
     background-image: url(../img/05-1.jpg);
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.mosaicosimplicidad:hover h5{
+    background-color: rgba(0,0,0,0.50);
+    padding: 1px;
+    color: white;
 }
 
 
