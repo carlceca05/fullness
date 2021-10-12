@@ -82,16 +82,23 @@
     background-size: cover ;
 }
 /* MOSAICOS */
+
+
+
 .mosaicocomunicacion {
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/min6.webp);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform .2s; /* Animation */
-    width: 320px;
-    height: 170px;
-    margin-right: 10px;
+    transition: transform .2s; 
+
+    
+   
+  
+    
 }
+
+
 .mosaicocomunicacion p {
     display: none;
 }
@@ -112,10 +119,8 @@
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform .2s; /* Animation */
-    width: 320px;
-    height: 170px;
-    margin-right: 10px;
+    transition: transform .2s; 
+
 }
 .mosaicoliderazgo:hover {
     background-image: url(../img/liderago_consciente.jpg);
@@ -132,9 +137,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 320px;
-    height: 170px;
-    margin-right: 10px;
+    
+  
  }
 .mosaicotrabajo:hover {
     background-image: url(../img/comuni.jpg);
@@ -150,13 +154,12 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform .2s; /* Animation */
-    width: 320px;
-    height: 170px;
+    transition: transform .2s; 
+  
  }
 .mosaicoinstructores:hover {
     background-image: url(../img/instructores_profesionales.jpg);
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5); 
 }
 .mosaicoinstructores:hover h5{
     background-color: rgba(0,0,0,0.50);
@@ -169,9 +172,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform .2s; /* Animation */
-    width: 320px;
-    height: 170px;
-    margin-right: 10px;
+ 
  }
 .mosaicosolucion:hover {
     background-image: url(../img/solucion_problemas.jpg);
@@ -381,6 +382,9 @@ height: auto;
     }
     .esfera{
         height: auto;
+    }
+    .mosaicocomunicacion{
+        width: 50px;
     }
 }
 @media only screen and (min-width:900px) and (max-width:1100px){
