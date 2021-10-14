@@ -83,7 +83,6 @@
 }
 /* MOSAICOS */
 .comunicacion{
-    height: 18vh;
     background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/comunicacion.webp);
     background-position: right;
     background-size: cover;
