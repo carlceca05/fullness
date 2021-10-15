@@ -1,3 +1,9 @@
+.logofondo{
+    background-image:  url(../img/logofondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
 .dos{
     background-image:  url(../img/grupo.webp);
     background-position: center;
