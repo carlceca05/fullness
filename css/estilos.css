@@ -32,12 +32,7 @@
     background-repeat: no-repeat;
     background-size: cover ;
 }
-.comunicacion{
-    background-image:radial-gradient(circle at left,rgba(255, 255, 255, 1) 30%,rgba(255, 255, 255, 0.1) 70%),  url(../img/min6.webp);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover ;
-}
+
 .textura{
     background-image: url(../img/nuevo.webp);
     background-position: center;
@@ -89,7 +84,7 @@
 }
 /* MOSAICOS */
 .comunicacion{
-    background-image: radial-gradient(circle at left,rgba(248, 212, 36, .50) 0%,rgba(248, 212, 36, 0.5) 100%),  url(../img/comunicacion.webp);
+    background-image: radial-gradient(circle at  left,rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.6) 100%),  url(../img/comunicacion.webp);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
