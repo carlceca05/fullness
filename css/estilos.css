@@ -117,6 +117,15 @@
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
 }
+.mosaicocomunicacionmovil{
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);
+
+}
 
 /* derecha */
 .mosaicoliderazgo {
@@ -126,6 +135,14 @@
     background-repeat: no-repeat;
 }
 .mosaicoliderazgo:hover {
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+}
+.mosaicoliderazgomovil{
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/liderago_consciente.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
@@ -141,6 +158,14 @@
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
 }
+.mosaicotrabajomovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comuni.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);  
+}
 
 /* derecha */
 .mosaicoinstructores {
@@ -149,9 +174,17 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-    .mosaicoinstructores:hover {
+.mosaicoinstructores:hover {
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
+}
+.mosaicoinstructoresmovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/instructores_profesionales.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 
 /*izq*/
@@ -163,6 +196,15 @@
    /* transition: transform .2s;  Animation */
 }
 .mosaicosolucion:hover {
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+}
+.mosaicosolucionmovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/solucion_problemas.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+   /* transition: transform .2s;  Animation */
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
@@ -178,6 +220,14 @@
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
+.mosaicoflujomovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/flujo_recursos.webp);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);
+}
 
 /*izq*/
 .mosaicomarketing {
@@ -190,6 +240,14 @@
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
+.mosaicomarketingmovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/marketing_interno.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+}
 
 /*derec*/
 .mosaicoproyeccion {
@@ -197,9 +255,16 @@
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
-
 }
 .mosaicoproyeccion:hover {
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+}
+.mosaicoproyeccionmovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/proyeccion.webp);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
@@ -215,16 +280,31 @@
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
+.mosaicoreunionesmovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/reuniones.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+}
 
 /*  derech */
 .mosaicovision {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/vision_estrategica.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 30%),  url(../img/vision_estrategica.webp);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
-    
 }
 .mosaicovision:hover {
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+}
+.mosaicovisionmovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/vision_estrategica.webp);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
@@ -237,6 +317,14 @@
     background-repeat: no-repeat;
 }
 .mosaicosimplicidad:hover {
+    border: 1px solid rgba(0,0,0,0.125);
+    box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+}
+.mosaicosimplicidadmovil {
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/05-1.webp);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
@@ -309,7 +397,7 @@
         left: 41%;
     }
     .fullness{
-        width: 45%;
+        width: 40%;
     }
     
 }
@@ -324,3 +412,7 @@
     }
 }
 
+.prueba{
+    display: flex;
+    justify-content: space-between;
+}
