@@ -101,7 +101,7 @@
 
 /* MOSAICOS */
 .comunicacion{
-    background-image: radial-gradient(circle at  left,rgba(255, 255, 255, 1) 0%,rgba(255, 255, 255, 0.6) 100%),  url(../img/comunicacion.webp);
+    background-image: radial-gradient(circle at  left,rgba(242, 214, 68, 0.5) 0%,rgba(242, 214, 68, 0.6) 100%),  url(../img/comunicacion.webp);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -397,7 +397,7 @@
         left: 41%;
     }
     .fullness{
-        width: 40%;
+        width: 20%;
     }
     
 }
