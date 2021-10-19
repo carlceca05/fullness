@@ -222,7 +222,7 @@
 }
 .mosaicoflujomovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/flujo_recursos.webp);
-    background-position: left;
+    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
@@ -262,7 +262,7 @@
 }
 .mosaicoproyeccionmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/proyeccion.webp);
-    background-position: left;
+    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
@@ -302,7 +302,7 @@
 }
 .mosaicovisionmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/vision_estrategica.webp);
-    background-position: left;
+    background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
@@ -322,7 +322,7 @@
 }
 .mosaicosimplicidadmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/05-1.webp);
-    background-position: left;
+    background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
