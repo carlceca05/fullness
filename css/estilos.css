@@ -103,8 +103,6 @@
 }
 
 
-
-
 /* MOSAICOS */
 .comunicacion{
     background-image:   url(../img/fullness-comunicacion.webp);
@@ -134,6 +132,12 @@
 }
 
 /* derecha */
+.liderazgo{
+    background-image: url(../img/liderago_consciente.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .mosaicoliderazgo {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 1) 30%),  url(../img/liderago_consciente.webp);
     background-position: left;
