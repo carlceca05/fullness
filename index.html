@@ -98,6 +98,7 @@
                                     <br>
                                     <p> Programas de Capacitación Introspectiva que revela las habilidades y talentos en pro de resultados altamente productivos en todas los aspectos de la vida.</p>
                                 </div>
+                                <!--
                                 <div class="col ">
                                     <h3 class="text-center mb-4">Contactános (ej.)</h3>
                                     <div class="row ">
@@ -115,6 +116,71 @@
                                             <input type="submit" value="enviar">
                                         </form>
                                     </div>
+                                </div>
+                                -->
+
+
+                                <style>
+                                    input { 
+	width: 100%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+}
+input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
+
+                                </style>
+                                <div class="col">
+                                    <form method="post">
+                                        <thead>
+                                            
+                                            <p class="text-center">  Contactános  </p>
+                                        </thead>
+                                        <table class=""  style="min-width: 95%;">
+                                            
+                                            
+                                            <tbody>
+                                            <tr class="">
+                                                <td class="">
+                                                    <input class="input" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off" placeholder="Nombre" data-required="true" required />
+                                                    <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                                                    </label>
+                                                </td> 
+                                                <td>
+                                                    <input class="input" maxlength="200" type="text" id="APELLIDOS" name="APELLIDOS" autocomplete="off" placeholder="Apellidos" data-required="true" required /> 
+                                                </td> 
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Correo electrónico" data-required="true" required />
+                                                </th> 
+                                                <th>
+                                                    <input maxlength="200" type="text" data-numeric="true" class="input" id="TELEFONO" name="TELEFONO" autocomplete="off"
+                                                    placeholder="Teléfono con lada" data-required="true" required />
+                                                </th> 
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2">
+                                                    <input class="input" maxlength="200" type="text" id="EMPRESA" name="EMPRESA" autocomplete="off" placeholder="Empresa" data-required="true" required />
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                            <p class="text-center mt-4"><button type="submit" class="btn btn-outline-light">    Enviar sus datos   </button> </p>   
+                                    </form>
                                 </div>
                             </div>
                             
@@ -165,7 +231,7 @@
                         <div class="caption  ">
                             <div class="row row-cols-2 row-cols-lg-2 row-cols-md-2  g-2 g-lg-2 pt-4  "  >
                                 <div class="col mb-4  pe-5">
-                                    <div class="row rounded mosaicocomunicacion p-3 text-end">
+                                    <div class="row rounded mosaicocomunicacion p-3 text-end h-100">
                                         <div class="col-8">
                                             <h4 class="">Comunicación Asertiva</h4>
                                             <p class="small ">Una comunicación asertiva nos da la oportunidad de mejorar nuestras relaciones con los demás y aumenta las opciones de éxito, abre las puertas de la inspiración y construye un panorama de felicidad.</p>
@@ -176,7 +242,7 @@
                                     </div>
                                 </div> 
                                 <div class=" col mb-4  ">
-                                    <div class="row rounded mosaicoliderazgo p-3 ">
+                                    <div class="row rounded mosaicoliderazgo p-3 h-100">
                                         <div class="col-4">
                                         </div>
                                         <div class="col-8">
@@ -187,7 +253,7 @@
                                     </div>
                                 </div>
                                 <div class="col mb-4 pe-5">
-                                    <div class="row rounded mosaicotrabajo p-3">
+                                    <div class="row rounded mosaicotrabajo p-3 h-100">
                                         <div class="col-8 text-end">
                                             <h5>Trabajo en equipo</h5>
                                             <p class="small "> Los Equipos de Alto rendimiento se reconocen por su inmejorable situación de comunicación y por su extraordinario manejo de recursos que dan como resultado, empresas productivas y de vanguardia.</p>
@@ -197,7 +263,7 @@
                                     </div>
                                 </div>
                                 <div class="col  mb-4">
-                                    <div class="row rounded p-3 mosaicoinstructores">
+                                    <div class="row rounded p-3 mosaicoinstructores h-100">
                                         <div class="col-4">
                                         </div>
                                         <div class="col-8">
@@ -216,7 +282,7 @@
                         <div class="caption  ">
                             <div class="row row-cols-2 row-cols-lg-2 row-cols-md-2  g-2 g-lg-2 pt-4  "  >
                                 <div class="col pe-5 mb-4">
-                                    <div class="row mosaicosolucion rounded p-3 ">
+                                    <div class="row mosaicosolucion rounded p-3 h-100">
                                         <div class="col-7 text-end">
                                             <h5>Solución de Problemas</h5>
                                             <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ab laudantium minus porro fugiat cum laboriosam repellat numquam temporibus ?</p>
@@ -226,7 +292,7 @@
                                     </div>
                                 </div>
                                 <div class="col mb-4">
-                                    <div class="row mosaicoflujo rounded p-3">
+                                    <div class="row mosaicoflujo rounded p-3 h-100">
                                         <div class="col-5">
                                         </div>
                                         <div class="col-7">
@@ -237,7 +303,7 @@
                                     </div>
                                 </div>
                                 <div class="col pe-5 mb-4">
-                                    <div class="row mosaicomarketing rounded p-3" >
+                                    <div class="row mosaicomarketing rounded p-3 h-100" >
                                         <div class="col-7 text-end">
                                             <h5>Marketing Interno</h5>
                                             <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ab laudantium minus porro fugiat cum laboriosam repellat numquam temporibus ?</p>
@@ -247,7 +313,7 @@
                                     </div>
                                 </div>
                                 <div class="col mb-4">
-                                    <div class="row mosaicoproyeccion rounded p-3">
+                                    <div class="row mosaicoproyeccion rounded p-3 h-100">
                                         <div class="col-5">
 
                                         </div>
@@ -267,7 +333,7 @@
                         <div class="caption  ">
                             <div class="row row-cols-2 row-cols-lg-2 row-cols-md-2  g-2 g-lg-2 pt-4  "  >
                                 <div class="col pe-5 mb-4">
-                                    <div class="row mosaicoreuniones rounded p-3">
+                                    <div class="row mosaicoreuniones rounded p-3 h-100">
                                         <div class="col-7 text-end ">
                                             <h5>Reuniones Efectivas</h5>
                                             <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ab laudantium minus porro fugiat cum laboriosam repellat numquam temporibus ?</p>
@@ -277,7 +343,7 @@
                                         <div class="col-5"></div>
                                     </div>
                                 <div class="col mb-4">
-                                    <div class="row mosaicovision rounded">
+                                    <div class="row mosaicovision rounded p-3 h-100">
                                         <div class="col-5">
                                         </div>
                                         <div class="col-7">
@@ -288,7 +354,7 @@
                                     </div>   
                                 </div>
                                 <div class="col pe-5 mb-4">
-                                    <div class="row mosaicosimplicidad p-3 rounded">
+                                    <div class="row mosaicosimplicidad p-3 rounded h-100">
                                         <div class="col-7 text-end">
                                             <h5 class="">Simplicidad</h5>
                                             <p class="small ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ab laudantium minus porro fugiat cum laboriosam repellat numquam temporibus ?</p>
