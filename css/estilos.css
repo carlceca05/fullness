@@ -160,8 +160,8 @@
 /*izq*/
 .trabajo{
     background-image:   url(../img/comuni.webp);
-    background-position: right;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 }
@@ -187,8 +187,8 @@
 /* derecha */
 .instructores {
     background-image:   url(../img/instructores_profesionales.webp);
-    background-position: left;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoinstructores {
@@ -211,10 +211,11 @@
 }
 
 /*izq*/
-.mosaicosolucion {
+
+.solucion {
     background-image:  url(../img/solucion_problemas.webp);
-    background-position: right;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicosolucion {
@@ -241,8 +242,8 @@
 /*dere*/
 .flujo {
     background-image:   url(../img/flujo_recursos.webp);
-    background-position: left;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoflujo {
@@ -267,8 +268,8 @@
 /*izq*/
 .marketing {
     background-image:   url(../img/marketing_interno.webp);
-    background-position: right;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicomarketing {
@@ -293,8 +294,8 @@
 /*derec*/
 .mosaicoproyeccion {
     background-image:   url(../img/proyeccion.webp);
-    background-position: left;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoproyeccion {
@@ -319,8 +320,8 @@
 /*izq*/
 .reuniones {
     background-image:   url(../img/reuniones.webp);
-    background-position: right;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoreuniones {
@@ -345,8 +346,8 @@
 /*  derech */
 .vision{
     background-image:   url(../img/vision_estrategica.webp);
-    background-position: left;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicovision {
@@ -371,7 +372,7 @@
 /*izq*/
 .simplicidad{
     background-image:   url(../img/05-1.webp);
-    background-position: left;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
