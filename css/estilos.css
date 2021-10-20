@@ -158,6 +158,13 @@
 }
 
 /*izq*/
+.trabajo{
+    background-image:   url(../img/comuni.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+}
 .mosaicotrabajo {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 62%,rgba(255, 255, 255, 0.125) 100%),  url(../img/comuni.webp);
     background-position: right;
@@ -178,6 +185,12 @@
 }
 
 /* derecha */
+.instructores {
+    background-image:   url(../img/instructores_profesionales.webp);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .mosaicoinstructores {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/instructores_profesionales.webp);
     background-position: left;
@@ -198,6 +211,12 @@
 }
 
 /*izq*/
+.mosaicosolucion {
+    background-image:  url(../img/solucion_problemas.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .mosaicosolucion {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/solucion_problemas.webp);
     background-position: right;
@@ -220,6 +239,12 @@
 }
 
 /*dere*/
+.flujo {
+    background-image:   url(../img/flujo_recursos.webp);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .mosaicoflujo {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/flujo_recursos.webp);
     background-position: left;
@@ -240,6 +265,12 @@
 }
 
 /*izq*/
+.marketing {
+    background-image:   url(../img/marketing_interno.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .mosaicomarketing {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/marketing_interno.webp);
     background-position: right;
@@ -261,6 +292,12 @@
 
 /*derec*/
 .mosaicoproyeccion {
+    background-image:   url(../img/proyeccion.webp);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.mosaicoproyeccion {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/proyeccion.webp);
     background-position: left;
     background-size: contain;
@@ -280,6 +317,12 @@
 }
 
 /*izq*/
+.reuniones {
+    background-image:   url(../img/reuniones.webp);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .mosaicoreuniones {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/reuniones.webp);
     background-position: right;
@@ -300,6 +343,12 @@
 }
 
 /*  derech */
+.vision{
+    background-image:   url(../img/vision_estrategica.webp);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 .mosaicovision {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 30%),  url(../img/vision_estrategica.webp);
     background-position: left;
@@ -320,6 +369,12 @@
 }
 
 /*izq*/
+.simplicidad{
+    background-image:   url(../img/05-1.webp);
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .mosaicosimplicidad {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/05-1.webp);
     background-position: left;
