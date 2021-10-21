@@ -122,14 +122,14 @@
 
 /* MOSAICOS */
 .comunicacion{
-    background-image:   url(../img/fullness-comunicacion.webp);
+    background-image:   url(../img/fullness-comunicacion.png);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
 }
 /*izq*/
 .mosaicocomunicacion {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
 }
 .mosaicocomunicacionmovil{
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -482,13 +482,12 @@
     .fullness{
         width: 20%;
     }
+    .altura{
+        height: auto;
+    }
     
 }
-@media only screen and (min-width:900px) and (max-width:1100px){
-    .info{
-        bottom: 10px;
-    }
-}
+
 @media only screen and (min-width:901px) and (max-width:3000px){
     .aparece{
         display: none;
