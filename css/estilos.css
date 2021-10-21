@@ -17,7 +17,7 @@
     background-color: rgba(0,0,0,0.30);
 }
 .altura{
-    height: 65vh;
+    height: 55vh;
 }
 .altito{
     height: 30vh;
@@ -123,7 +123,7 @@
 /* MOSAICOS */
 .comunicacion{
     background-image:   url(../img/fullness-comunicacion.png);
-    background-position: right;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
