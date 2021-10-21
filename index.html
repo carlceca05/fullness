@@ -49,37 +49,31 @@
 
             
         }
-        input { 
+
+        
+        .espacio { 
             width: 100%; 
             margin-bottom: 8px; 
             background: rgba(254,254,254,0.7);
-            /*border: none;
-            outline: none;*/
+            
             padding: 8px; 
             font-size: 13px;
             color: #000;
-            /* text-shadow: 1px 1px 1px rgba(0,0,0,0.3);*/
-            /*border: 1px solid rgba(0,0,0,0.3); */
+            
             border-radius: 4px;
-            /*
-            box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
-            -webkit-transition: box-shadow .5s ease;
-            -moz-transition: box-shadow .5s ease;
-            -o-transition: box-shadow .5s ease;
-            -ms-transition: box-shadow .5s ease;
-            transition: box-shadow .5s ease;
-            */
         }
-        input:focus {
+        .espacio:focus {
             box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4); 
         }
+        
 
     </style>
 
+    <link rel="stylesheet" href="css/menu2.css">
 </head>
 <body>
 
-    <nav class="navbar navbar-light navbar-expand-lg bg-light" style="z-index:25;">
+    <nav class="navbar navbar-light navbar-expand-lg bg-light " style="z-index:25;">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img class="img-fluid lazyload" data-src="img/fullnes.webp" alt="fullness" width="60" height="24">
@@ -93,7 +87,10 @@
                     <a class="nav-link active" aria-current="page" href="index.html"> Inicio </a>
                 </li>
                 <li class="nav-item dropdown ">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos </a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Cursos   </a>
+                    
+                     
+                        
                     <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
                         <li class=""><a class="dropdown-item " href="comunicacion-asertiva.html">Comunicación Asertiva</a></li>
                         <li class=""><a class="dropdown-item " href="liderazgo-consciente.html">Liderazgo Consciente </a></li>
@@ -107,6 +104,7 @@
                         <li><a class="dropdown-item " href=""> Visión Estratégica </a></li>
                         <li><a class="dropdown-item " href="simplicidad.html"> Simplicidad </a></li>
                     </ul>
+                    
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="dev.html">version1</a>
@@ -121,6 +119,7 @@
         </div>
         </div>
     </nav>
+    
     <!--Principal-->
     <div class="carousel slide main-slider" data-ride="carousel" id="mainCarousel">
         <div class="top-back"></div>
@@ -158,47 +157,44 @@
                                     </div>
                                 </div>
                                 -->
-                                <div class="col">
-                                    <form method="post">
-                                        <thead>
-                                            
-                                            <h5 class="text-center mb-4">  Contactános  </h5>
-                                        </thead>
-                                        <table class=""  style="min-width: 95%;">
-                                            
-                                            
-                                            <tbody>
-                                            <tr class="">
-                                                <td class="pe-1">
-                                                    <input class="input" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off" placeholder="Nombre" data-required="true" required />
-                                                    <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-                                                    </label>
-                                                </td> 
-                                                <td>
-                                                    <input class="input" maxlength="200" type="text" id="APELLIDOS" name="APELLIDOS" autocomplete="off" placeholder="Apellidos" data-required="true" required /> 
-                                                </td> 
-                                            </tr>
-                                            <tr>
-                                                <th class="pe-1">
-                                                    <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Correo electrónico" data-required="true" required />
-                                                </th> 
-                                                <th>
-                                                    <input maxlength="200" type="text" data-numeric="true" class="input" id="TELEFONO" name="TELEFONO" autocomplete="off"
-                                                    placeholder="Teléfono con lada" data-required="true" required />
-                                                </th> 
-                                            </tr>
-                                            <tr>
-                                                <td colspan="">
-                                                    <input class="input" maxlength="200" type="text" id="EMPRESA" name="EMPRESA" autocomplete="off" placeholder="Empresa" data-required="true" required />
-                                                </td>
-                                                <td>
-                                                    <input class="input" maxlength="200" type="text" id="CARGO" name="CARGO" autocomplete="off" placeholder="Cargo" data-required="true" required />                                                </td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-                                            <p class="text-center mt-2"><button type="submit" class="btn btn-outline-light ">    Enviar sus datos   </button> </p>   
-                                    </form>
-                                </div>
+                                <div class="col desaparece">
+                        <form method="post">
+                            <h5 class="text-center mb-4 text-white">  Contactános  </h5>
+                        <table class=""  style="min-width: 95%;">
+                            <tbody>
+                            <tr class="">
+                                <td class="pe-1">
+                                    <input class="espacio" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off" placeholder="Nombre" data-required="true" required />
+                                    <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                                    </label>
+                                </td> 
+                                <td>
+                                    <input class="espacio" maxlength="200" type="text" id="APELLIDOS" name="APELLIDOS" autocomplete="off" placeholder="Apellidos" data-required="true" required /> 
+                                </td> 
+                            </tr>
+                            <tr>
+                                <th class="pe-1">
+                                    <input class="espacio" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Correo electrónico" data-required="true" required />
+                                </th> 
+                                <th>
+                                    <input maxlength="200" type="text" data-numeric="true" class="espacio" id="TELEFONO" name="TELEFONO" autocomplete="off"
+                                    placeholder="Teléfono con lada" data-required="true" required />
+                                </th> 
+                            </tr>
+                            <tr>
+                                <td colspan="">
+                                    <input class="espacio" maxlength="200" type="text" id="EMPRESA" name="EMPRESA" autocomplete="off" placeholder="Empresa" data-required="true" required />
+                                </td>
+                                <td>
+                                    <input class="espacio" maxlength="200" type="text" id="CARGO" name="CARGO" autocomplete="off" placeholder="Cargo" data-required="true" required />                                                </td>
+                            </tr>
+                            </tbody>
+                            
+                        </table>
+                            <p class="text-center mt-2"><button type="submit" class="btn btn-outline-light ">    Enviar sus datos   </button> </p>   
+                    </form>
+                    
+                </div>
                             </div>
                             
                         </div>
@@ -804,8 +800,8 @@
                 <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="comunicacion p-5 "  style="height: 18vh;">
-                    <h1 class="text-white text-center ">Comunicación Asertiva</h1>
+                <div class="comunicacion altito  "  >
+                    <h1 class="text-white text-center trans p-5">Comunicación Asertiva</h1>
                 </div>
                 <div class="modal-body p-4">
                     <h5>Descripción</h5>
@@ -831,8 +827,8 @@
                 <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="liderazgo p-5 "  style="height: 18vh;">
-                    <h1 class="text-white text-center ">Liderazgo Consciente</h1>
+                <div class="liderazgo p-5 altito "  >
+                    <h1 class="text-white p-3 trans text-center ">Liderazgo Consciente</h1>
                 </div>
                 <div class="modal-body p-4">
                     <h5>Descripción</h5>
@@ -850,15 +846,15 @@
             </div>
         </div>
     </div>   
-     <!--trabajo en equipo-->
-     <div class="modal fade" id="trabajo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <!--trabajo en equipo-->
+    <div class="modal fade" id="trabajo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" style="  max-width: 800px; ">
             <div class="modal-content">
                 <div class="modal-header">
                 <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="trabajo p-5 "  style="height: 18vh;">
+                <div class="trabajo p-5 altito" >
                     <h1 class="text-white text-center ">Trabajo en equipo</h1>
                 </div>
                 <div class="modal-body p-4">
@@ -877,15 +873,15 @@
             </div>
         </div>
     </div>  
-     <!--instructores-->
-     <div class="modal fade" id="instructores" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" style="  max-width: 800px; ">
+    <!--instructores-->
+    <div class="modal fade" id="instructores" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="  max-width: 800px;">
             <div class="modal-content">
                 <div class="modal-header">
                 <!--<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>-->
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="comunicacion p-5 "  style="height: 18vh;">
+                <div class="comunicacion p-5 altito">
                     <h1 class="text-white text-center ">Instructores profesionales</h1>
                 </div>
                 <div class="modal-body p-4">

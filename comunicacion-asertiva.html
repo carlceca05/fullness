@@ -84,22 +84,42 @@
                     <h5 class="text-white "><i>  La puerta al mundo </i> </h5>
                 </div>
                 <div class="col desaparece">
-                    <h3 class="text-center text-white mb-4">Contactános (ej.)</h3>
-                    <div class="row ">
-                        <form action="">
-                            <div class="col ">
-                                <input class="mb-2 " type="text" name="nombrecompleto" placeholder="Nombre" style="background-color: rgba(0,0,0,0.4); color: seashell; border:none; ">
-                                <input  class="mb-2" type="text" placeholder="correo" style="background-color: rgba(0,0,0,0.4); color: seashell; border:none; ">
-                                <input class="mb-2" type="text " placeholder="direccion" style="background-color: rgba(0,0,0,0.4); color: seashell; border:none; ">
-                            </div>
-                            <div class="col">
-                                <input class="mb-2" type="text " placeholder="Apellidos" style="background-color: rgba(0,0,0,0.4); color: seashell; border:none; ">
-                                <input class="mb-2" type="text" placeholder="numero" style="background-color: rgba(0,0,0,0.4); color: seashell; border:none; ">
-                                <input class="mb-2" type="text" placeholder="datos" style="background-color: rgba(0,0,0,0.4); color: seashell; border:none; ">
-                            </div>
-                            <input type="submit" value="enviar">
-                        </form>
-                    </div>
+                        <form method="post">
+                            <h5 class="text-center mb-4 text-white">  Contactános  </h5>
+                        <table class=""  style="min-width: 95%;">
+                            <tbody>
+                            <tr class="">
+                                <td class="pe-1">
+                                    <input class="espacio" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off" placeholder="Nombre" data-required="true" required />
+                                    <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                                    </label>
+                                </td> 
+                                <td>
+                                    <input class="espacio" maxlength="200" type="text" id="APELLIDOS" name="APELLIDOS" autocomplete="off" placeholder="Apellidos" data-required="true" required /> 
+                                </td> 
+                            </tr>
+                            <tr>
+                                <th class="pe-1">
+                                    <input class="espacio" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Correo electrónico" data-required="true" required />
+                                </th> 
+                                <th>
+                                    <input maxlength="200" type="text" data-numeric="true" class="espacio" id="TELEFONO" name="TELEFONO" autocomplete="off"
+                                    placeholder="Teléfono con lada" data-required="true" required />
+                                </th> 
+                            </tr>
+                            <tr>
+                                <td colspan="">
+                                    <input class="espacio" maxlength="200" type="text" id="EMPRESA" name="EMPRESA" autocomplete="off" placeholder="Empresa" data-required="true" required />
+                                </td>
+                                <td>
+                                    <input class="espacio" maxlength="200" type="text" id="CARGO" name="CARGO" autocomplete="off" placeholder="Cargo" data-required="true" required />                                                </td>
+                            </tr>
+                            </tbody>
+                            
+                        </table>
+                            <p class="text-center mt-2"><button type="submit" class="btn btn-outline-light ">    Enviar sus datos   </button> </p>   
+                    </form>
+                    
                 </div>
             </div>
         </div>
