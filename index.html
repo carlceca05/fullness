@@ -31,11 +31,45 @@
                 display: none;
             }
         }
+        @media only screen and (min-width:1000px) and (max-width:1200px){
+            .carousel-caption{
+                bottom: 0.80rem;
+            }
+        }
+        @media only screen and (min-width:901px) and (max-width:1000px){
+            .carousel-caption{
+                bottom: 0.1rem;
+            }
+        }
         @media only screen and (min-width:300px) and (max-width:900px){
             .desaparece{
                 display: none;
             }
             
+
+            
+        }
+        input { 
+            width: 100%; 
+            margin-bottom: 10px; 
+            background: rgba(0,0,0,0.3);
+            border: none;
+            outline: none;
+            padding: 10px;
+            font-size: 13px;
+            color: #fff;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+            border: 1px solid rgba(0,0,0,0.3);
+            border-radius: 4px;
+            box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
+            -webkit-transition: box-shadow .5s ease;
+            -moz-transition: box-shadow .5s ease;
+            -o-transition: box-shadow .5s ease;
+            -ms-transition: box-shadow .5s ease;
+            transition: box-shadow .5s ease;
+        }
+        input:focus {
+            box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); 
         }
 
     </style>
@@ -62,9 +96,9 @@
                         <li class=""><a class="dropdown-item " href="comunicacion-asertiva.html">Comunicación Asertiva</a></li>
                         <li class=""><a class="dropdown-item " href="liderazgo-consciente.html">Liderazgo Consciente </a></li>
                         <li><a class="dropdown-item " href="trabajo-equipo.html"> Trabajo en Equipo </a></li>
-                        <li><a class="dropdown-item " href=""> Instructores Profesionales </a></li>
-                        <li><a class="dropdown-item " href=""> Solución de Problemas </a></li>
-                        <li><a class="dropdown-item " href=""> Flujo de Recursos </a></li>
+                        <li><a class="dropdown-item " href="instructores-profesionales.html"> Instructores Profesionales </a></li>
+                        <li><a class="dropdown-item " href="solucion-problemas.html"> Solución de Problemas </a></li>
+                        <li><a class="dropdown-item " href="flujo-trabajo.html"> Flujo de Recursos </a></li>
                         <li><a class="dropdown-item " href=""> Marketing Interno </a></li>
                         <li><a class="dropdown-item " href=""> Proyección Profesional </a></li>
                         <li><a class="dropdown-item " href=""> Reuniones Efectivas </a></li>
@@ -78,6 +112,9 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="dev_2.html">version2</a>
                 </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="menu.html">MENU</a>
+                </li>
             </ul>
         </div>
         </div>
@@ -87,12 +124,13 @@
         <div class="top-back"></div>
         <div class="carousel-inner" role="listbox">
             <div class="carousel-item active ">
-                <img class="centro ancho lazyload " data-src="img/nuevo2.webp" alt="fullness" >
+                <img class="centro ancho lazyload desaparece" data-src="img/nuevo2.webp" alt="fullness" >
+                <img class="centro ancho lazyload aparece" data-src="img/fullness-movil-ok.jpg" alt="fullness" >
                 <div class="blackdiv"></div>
                 <div class="carousel-caption program-carousel-caption ">
-                    <div class="info pb-5"  >
+                    <div class="info "  >
                         <div class="info-in p-4 desaparece" style=background-color:rgba(0,0,0,0.4)>
-                            <div class="row py-5">
+                            <div class="row py-4">
                                 <div class="col">
                                     <h1 class="fw-light  text-white ">   Programas de  <strong class="fw-bold text-warning"  > Capacitación   Introspectiva</strong>   </h1>
                                     <br>
@@ -118,31 +156,6 @@
                                     </div>
                                 </div>
                                 -->
-
-
-                                <style>
-                                    input { 
-	width: 100%; 
-	margin-bottom: 10px; 
-	background: rgba(0,0,0,0.3);
-	border: none;
-	outline: none;
-	padding: 10px;
-	font-size: 13px;
-	color: #fff;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-	border: 1px solid rgba(0,0,0,0.3);
-	border-radius: 4px;
-	box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
-	-webkit-transition: box-shadow .5s ease;
-	-moz-transition: box-shadow .5s ease;
-	-o-transition: box-shadow .5s ease;
-	-ms-transition: box-shadow .5s ease;
-	transition: box-shadow .5s ease;
-}
-input:focus { box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); }
-
-                                </style>
                                 <div class="col">
                                     <form method="post">
                                         <thead>

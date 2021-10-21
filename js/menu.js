@@ -2,7 +2,9 @@ var menuItems = [].slice.call(document.querySelectorAll('.menu__item')),
 menuSubs = [].slice.call(document.querySelectorAll('.dropdown-menu')),
 selectedMenu = undefined,
 subBg = document.querySelector('.dropdown__bg'),
-subBgBtm = document.querySelector('.dropdown__bg-bottom'),
+
+  subBgBtm = document.querySelector('.dropdown__bg-bottom'), 
+
 subArr = document.querySelector('.dropdown__arrow'),
 subCnt = document.querySelector('.dropdown__wrap'),
 header = document.querySelector('.main-header'),
