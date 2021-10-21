@@ -51,25 +51,27 @@
         }
         input { 
             width: 100%; 
-            margin-bottom: 10px; 
-            background: rgba(0,0,0,0.3);
-            border: none;
-            outline: none;
-            padding: 10px;
+            margin-bottom: 8px; 
+            background: rgba(254,254,254,0.7);
+            /*border: none;
+            outline: none;*/
+            padding: 8px; 
             font-size: 13px;
-            color: #fff;
-            text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-            border: 1px solid rgba(0,0,0,0.3);
+            color: #000;
+            /* text-shadow: 1px 1px 1px rgba(0,0,0,0.3);*/
+            /*border: 1px solid rgba(0,0,0,0.3); */
             border-radius: 4px;
+            /*
             box-shadow: inset 0 -5px 45px rgba(100,100,100,0.2), 0 1px 1px rgba(255,255,255,0.2);
             -webkit-transition: box-shadow .5s ease;
             -moz-transition: box-shadow .5s ease;
             -o-transition: box-shadow .5s ease;
             -ms-transition: box-shadow .5s ease;
             transition: box-shadow .5s ease;
+            */
         }
         input:focus {
-            box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2); 
+            box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.4); 
         }
 
     </style>
@@ -160,14 +162,14 @@
                                     <form method="post">
                                         <thead>
                                             
-                                            <p class="text-center">  Contactános  </p>
+                                            <h5 class="text-center mb-4">  Contactános  </h5>
                                         </thead>
                                         <table class=""  style="min-width: 95%;">
                                             
                                             
                                             <tbody>
                                             <tr class="">
-                                                <td class="">
+                                                <td class="pe-1">
                                                     <input class="input" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off" placeholder="Nombre" data-required="true" required />
                                                     <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
                                                     </label>
@@ -177,7 +179,7 @@
                                                 </td> 
                                             </tr>
                                             <tr>
-                                                <th>
+                                                <th class="pe-1">
                                                     <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Correo electrónico" data-required="true" required />
                                                 </th> 
                                                 <th>
@@ -186,13 +188,15 @@
                                                 </th> 
                                             </tr>
                                             <tr>
-                                                <td colspan="2">
+                                                <td colspan="">
                                                     <input class="input" maxlength="200" type="text" id="EMPRESA" name="EMPRESA" autocomplete="off" placeholder="Empresa" data-required="true" required />
                                                 </td>
+                                                <td>
+                                                    <input class="input" maxlength="200" type="text" id="CARGO" name="CARGO" autocomplete="off" placeholder="Cargo" data-required="true" required />                                                </td>
                                             </tr>
                                             </tbody>
                                         </table>
-                                            <p class="text-center mt-4"><button type="submit" class="btn btn-outline-light">    Enviar sus datos   </button> </p>   
+                                            <p class="text-center mt-2"><button type="submit" class="btn btn-outline-light ">    Enviar sus datos   </button> </p>   
                                     </form>
                                 </div>
                             </div>
