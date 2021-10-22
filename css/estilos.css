@@ -309,14 +309,14 @@
 }
 
 /*derec*/
-.mosaicoproyeccion {
-    background-image:   url(../img/proyeccion.webp);
+.proyeccion {
+    background-image:   url(../img/proyeccion.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoproyeccion {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/proyeccion.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/proyeccion-mosaico.png);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicoproyeccionmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/proyeccion.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/proyeccion-mosaico.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
