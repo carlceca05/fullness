@@ -122,14 +122,14 @@
 
 /* MOSAICOS */
 .comunicacion{
-    background-image:   url(../img/fullness-comunicacion.png);
+    background-image:   url(../img/fullness-comunicacion.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
 /*izq*/
 .mosaicocomunicacion {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -139,7 +139,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
 }
 .mosaicocomunicacionmovil{
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -203,13 +203,13 @@
 
 /* derecha */
 .instructores {
-    background-image:   url(../img/instructores);
+    background-image:   url(../img/instructores.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoinstructores {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/instructores-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/instructores-mosaico.webp);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
 }
 .mosaicoinstructoresmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/instructores-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/instructores-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -230,13 +230,13 @@
 /*izq*/
 
 .solucion {
-    background-image:  url(../img/solucion.png);
+    background-image:  url(../img/solucion.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicosolucion {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/solucion-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/solucion-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicosolucionmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/solucion-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/solucion-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -258,13 +258,13 @@
 
 /*dere*/
 .flujo {
-    background-image:   url(../img/flujo.png);
+    background-image:   url(../img/flujo.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoflujo {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/flujo-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/flujo-mosaico.webp);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicoflujomovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/flujo-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/flujo-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -284,13 +284,13 @@
 
 /*izq*/
 .marketing {
-    background-image:   url(../img/marketing_interno.webp);
+    background-image:   url(../img/marketing.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicomarketing {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/marketing_interno.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/marketing-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -300,7 +300,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicomarketingmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/marketing_interno.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/marketing-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -310,13 +310,13 @@
 
 /*derec*/
 .proyeccion {
-    background-image:   url(../img/proyeccion.png);
+    background-image:   url(../img/proyeccion.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoproyeccion {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/proyeccion-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/proyeccion-mosaico.webp);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -326,7 +326,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicoproyeccionmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/proyeccion-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/proyeccion-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -336,13 +336,13 @@
 
 /*izq*/
 .reuniones {
-    background-image:   url(../img/reuniones.png);
+    background-image:   url(../img/reuniones.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoreuniones {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/reuniones-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/reuniones-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicoreunionesmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/reuniones-mosaico.png);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/reuniones-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -362,13 +362,13 @@
 
 /*  derech */
 .vision{
-    background-image:   url(../img/vision_estrategica.webp);
+    background-image:   url(../img/vision-mosaico.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicovision {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 30%),  url(../img/vision_estrategica.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 30%),  url(../img/vision-mosaico.webp);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -378,7 +378,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicovisionmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/vision_estrategica.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/vision-mosaico.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
