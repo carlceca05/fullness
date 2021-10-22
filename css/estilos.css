@@ -258,13 +258,13 @@
 
 /*dere*/
 .flujo {
-    background-image:   url(../img/flujo_recursos.webp);
+    background-image:   url(../img/flujo.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoflujo {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/flujo_recursos.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/flujo-mosaico.png);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -274,7 +274,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicoflujomovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/flujo_recursos.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/flujo-mosaico.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -336,13 +336,13 @@
 
 /*izq*/
 .reuniones {
-    background-image:   url(../img/reuniones.webp);
+    background-image:   url(../img/reuniones.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoreuniones {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/reuniones.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/reuniones-mosaico.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -352,7 +352,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicoreunionesmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/reuniones.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/reuniones-mosaico.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
