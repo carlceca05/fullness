@@ -183,7 +183,7 @@
 }
 
 .mosaicotrabajo {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 62%,rgba(255, 255, 255, 0.125) 100%),  url(../img/comuni.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 62%,rgba(255, 255, 255, 0.125) 100%),  url(../img/grupo.webp);
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
 }
 .mosaicotrabajomovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comuni.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/grupo.webp);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -203,13 +203,13 @@
 
 /* derecha */
 .instructores {
-    background-image:   url(../img/instructores_profesionales.webp);
+    background-image:   url(../img/instructores);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoinstructores {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/instructores_profesionales.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, .125) 0%,rgba(255, 255, 255, 1) 40%),  url(../img/instructores-mosaico.png);
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -219,7 +219,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);   
 }
 .mosaicoinstructoresmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/instructores_profesionales.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/instructores-mosaico.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -230,13 +230,13 @@
 /*izq*/
 
 .solucion {
-    background-image:  url(../img/solucion_problemas.webp);
+    background-image:  url(../img/solucion.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicosolucion {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/solucion_problemas.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0.125) 100%),  url(../img/solucion-mosaico.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -247,7 +247,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicosolucionmovil {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/solucion_problemas.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/solucion-mosaico.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
