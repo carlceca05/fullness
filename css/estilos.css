@@ -140,8 +140,8 @@
 }
 .mosaicocomunicacionmovil{
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/comunicacion.webp);
-    background-position: right;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);
@@ -168,7 +168,7 @@
 .mosaicoliderazgomovil{
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/liderago_consciente.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
@@ -195,7 +195,7 @@
 .mosaicotrabajomovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/grupo.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);  
@@ -221,7 +221,7 @@
 .mosaicoinstructoresmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/instructores-mosaico.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
@@ -249,7 +249,7 @@
 .mosaicosolucionmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/solucion-mosaico.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
    /* transition: transform .2s;  Animation */
     border: 1px solid rgba(0,0,0,0.125);
@@ -276,7 +276,7 @@
 .mosaicoflujomovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/flujo-mosaico.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20);
@@ -302,7 +302,7 @@
 .mosaicomarketingmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/marketing-mosaico.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
@@ -328,7 +328,7 @@
 .mosaicoproyeccionmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/proyeccion-mosaico.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
@@ -354,7 +354,7 @@
 .mosaicoreunionesmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/reuniones-mosaico.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
@@ -380,7 +380,7 @@
 .mosaicovisionmovil {
     background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/vision-mosaico.webp);
     background-position: right;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 1px solid rgba(0,0,0,0.125);
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
