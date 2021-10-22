@@ -150,13 +150,13 @@
 
 /* derecha */
 .liderazgo{
-    background-image: url(../img/liderago_consciente.webp);
+    background-image: url(../img/liderazgo.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .mosaicoliderazgo {
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 1) 30%),  url(../img/liderago_consciente.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 0) 0%,rgba(255, 255, 255, 1) 30%),  url(../img/liderazgo-mosaico.webp), ;
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
@@ -166,7 +166,7 @@
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
 }
 .mosaicoliderazgomovil{
-    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/liderago_consciente.webp);
+    background-image: radial-gradient(circle at left,rgba(255, 255, 255, 1) 60%,rgba(255, 255, 255, 0) 100%),  url(../img/liderazgo-mosaico-inv.webp) ;
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
