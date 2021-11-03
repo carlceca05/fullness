@@ -1,4 +1,9 @@
-
+.efeito{
+    color: black;
+}
+.efeito:hover{
+    color: #0d579f;
+}
 .espacio { 
     width: 100%; 
     margin-bottom: 8px; 
