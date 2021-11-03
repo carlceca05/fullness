@@ -1,3 +1,13 @@
+.sobrepuesto{
+    position: relative;
+    top: 500px;
+}
+.fondo{
+    background-image:radial-gradient(circle at left,rgba(51, 49, 49,0.4) 30%,rgba(21, 14, 14, 0.4) 70%),  url(../img/fullness-principal.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
 .sobresombra{
     box-shadow:  3px 3px 10px  rgba(0,0,0,0.10); 
 }
