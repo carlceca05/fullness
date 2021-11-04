@@ -1,3 +1,19 @@
+.haber{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    /*background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;*/
+}
 .sobrepuesto{
     position: relative;
     top: 500px;
@@ -13,6 +29,7 @@
 }
 .sobresombra:hover{
     box-shadow:  5px 5px 20px  rgba(0,0,0,0.20); 
+    /*background-color: #f2d644;*/
 }
 .efeito{
     color: black;
@@ -143,7 +160,7 @@
 
 /* MOSAICOS */
 .comunicacion{
-    background-image:   url(../img/fullness-comunicacion.webp);
+    background-image:  radial-gradient(circle at left,rgba(0, 0, 0, 0.2) 0%,rgba(0, 0, 0, 0.2) 100%),  url(../img/fullness-comunicacion.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,7 +188,7 @@
 
 /* derecha */
 .liderazgo{
-    background-image: url(../img/liderazgo.webp);
+    background-image: radial-gradient(circle at left,rgba(0, 0, 0, 0.2) 0%,rgba(0, 0, 0, 0.2) 100%), url(../img/liderazgo.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -197,7 +214,7 @@
 
 /*izq*/
 .trabajo{
-    background-image:   url(../img/grupo.webp);
+    background-image: radial-gradient(circle at left,rgba(0, 0, 0, 0.2) 0%,rgba(0, 0, 0, 0.2) 100%),  url(../img/grupo.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
