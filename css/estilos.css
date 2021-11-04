@@ -189,7 +189,7 @@
 /* derecha */
 .liderazgo{
     background-image: radial-gradient(circle at left,rgba(0, 0, 0, 0.2) 0%,rgba(0, 0, 0, 0.2) 100%), url(../img/liderazgo.webp);
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
 }
