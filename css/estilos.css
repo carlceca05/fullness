@@ -1,3 +1,22 @@
+.fuera{
+    position: absolute;
+    bottom: 50;
+    left: 30%;
+    z-index: 50;
+}
+.fuera2{
+    position: absolute;
+    bottom: 300;
+    left: 30%;
+    z-index: 50;
+}
+.fondoslider{
+    background-image: url(../img/fullness-principal.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .shota:hover{
     transform: scale(1.1);
     transition: 0.3s ease;
@@ -155,7 +174,7 @@
     box-shadow: 10px 10px 15px rgba(0,0,0,0.30);
 }
 .fondo2{
-    background-image:radial-gradient(circle at left,rgb(255, 247, 0, 0.5) 30%,rgba(253, 203, 0, 0.5) 70%),  url(../img/comuni.webp);
+    background-image:radial-gradient(circle at right,rgba(0,0,0,0.42) 0%,rgba(21,28,50,0.94) 60%),  url(../img/comuni.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
