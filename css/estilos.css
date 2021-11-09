@@ -1,15 +1,10 @@
 .fuera{
     position: absolute;
     bottom: 50;
-    left: 30%;
+    left: 37%;
     z-index: 50;
 }
-.fuera2{
-    position: absolute;
-    bottom: 300;
-    left: 30%;
-    z-index: 50;
-}
+
 .fondoslider{
     background-image: url(../img/fullness-principal.webp);
     background-position: center;
