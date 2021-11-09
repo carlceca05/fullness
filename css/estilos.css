@@ -3,7 +3,7 @@
 }
 
 .pruebafondo{
-    background-image: radial-gradient(circle at left,rgba(255, 232, 59, 0.9) 30%,rgba(255, 231, 45, 0.9) 70%),  url(../img/dots.png) ;
+    background-image: radial-gradient(circle at left,rgba(255, 232, 59, 0.9) 30%,rgba(255, 231, 45, 0.9) 70%),  url(../img/dots2.png) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
