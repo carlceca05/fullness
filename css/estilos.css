@@ -472,6 +472,13 @@
     left: 47%;
     position: relative;
 }
+.blanco{
+    background-color: rgb(254, 254, 254) /*  #959396 */ ;
+    height: 7px;
+    width: 5%;
+    left: 47%;
+    position: relative;
+}
 .arriba{
     position: fixed;
     right: 22px;
@@ -498,6 +505,10 @@
     width: 50px;
     height: auto;
 }
+
+.aaa{
+    width: 35%;
+}
 @media only screen and (min-width:300px) and (max-width:900px){
     .desaparece{
         display: none;
@@ -521,13 +532,23 @@
         width: 15%;
         left: 41%;
     }
+    .blanco{
+        width: 15%;
+        left: 41%;
+    }
+    
     .fullness{
         width: 20%;
     }
     .altura{
         height: auto;
     }
-    
+    .aaa{
+        width: 70%;
+    }
+    .especial{
+        width: 50%;
+    }
 }
 
 @media only screen and (min-width:901px) and (max-width:3000px){
