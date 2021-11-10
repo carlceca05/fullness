@@ -594,6 +594,9 @@
     .especial{
         width: 50%;
     }
+    .desaparece2{
+        display: none;
+    }
 }
 
 @media only screen and (min-width:901px) and (max-width:3000px){

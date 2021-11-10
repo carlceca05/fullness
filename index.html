@@ -49,6 +49,9 @@
             .carousel-caption{
                 bottom: 1rem;
             }
+            .desaparece2{
+                display: none;
+            }
         }
         @media only screen and (min-width:1001px) and (max-width:1100px){
             .carousel-caption{
@@ -57,10 +60,17 @@
             .especial{
                 width: 10%;
             }
+            .desaparece2{
+                display: block;
+            }
+            
         }
         @media only screen and (min-width:901px) and (max-width:1000px){
             .carousel-caption{
                 bottom: 0.0rem;
+            }
+            .desaparece2{
+                display: none;
             }
         }
         @media only screen and (min-width:300px) and (max-width:900px){
@@ -70,7 +80,16 @@
             .especial{
                 width: 50%;
             }
+            .desaparece2{
+                display: none;
+            }
         }
+        /*
+        @media only screen and (min-width:1300px) and (max-width:3000px){
+            .desaparece2{
+                display: none;
+            }
+        }*/
         .espacio { 
             width: 100%; 
             margin-bottom: 8px; 
@@ -382,9 +401,9 @@
                 <div class="col mb-5 ">
                     <div class="card sobresombra h-100">
                         <img class="card-img-top mb-3" src="img/comunicacion.webp" alt="">
-                        <div class=" h-100 px-4 pb-4">
+                        <div class="  px-4 pb-4" >
                             <h5 class="py-2 text-center  fw-bold text-uppercase "> <i> Comunicación Efectiva</i></h5>
-                            <p class=""> Las historias de conflicto terminaran cuando seamos responsables de lo que comunicamos y cómo lo hacemos, y además de corroborar su veracidad, no se trata solo de transmitir, sino de complementar el círculo de interacción que produzca mensajes efectivos que resulten en un mundo mejor. </p>
+                            <p class=""> Las historias de conflicto terminaran cuando seamos responsables de lo que comunicamos, cómo lo hacemos, y de corroborar su veracidad, no se trata solo de transmitir, sino de crear una interacción con mensajes efectivos. </p>
                             <button type="button" class="btn btn-dark  fuera" data-bs-toggle="modal" data-bs-target="#comunicacion">Ver más</button>
                         </div>
                     </div>
@@ -392,20 +411,20 @@
                 <div class="col mb-5">
                     <div class="card  sobresombra h-100">
                         <img class="card-img-top mb-3" src="img/liderazgo-mosaico.webp" alt="">
-                        <div class="px-4 pb-4 ">
+                        <div class="px-4 pb-">
                             <h5 class="py-2 text-center fw-bold text-uppercase"> <i>  Liderazgo Consciente </i></h5>
-                            <p class="mb-3 mb-sm-0 mb-md-0 mb-lg-0"> El mundo requiere de Líderes que integren el talento y lo orienten hacia proyectos de impacto social y humano, el Liderazgo Consciente es el manejo del potencial universal con fino de desarrollo y mejora constante.</p>
-                            <button type="button" class="btn btn-dark mt-0 mt-lg-5 fuera" data-bs-toggle="modal" data-bs-target="#liderazgo">Ver más</button>
+                            <p class=""> El mundo requiere de Líderes que integren el talento y lo orienten hacia proyectos de impacto social y humano, el Liderazgo Consciente es el manejo del potencial universal con fino de desarrollo y mejora constante.</p>
+                            <button type="button" class="btn btn-dark fuera " data-bs-toggle="modal" data-bs-target="#liderazgo">Ver más</button>
                         </div>
                     </div>
                 </div>
                 <div class="col mb-5 ">
                     <div class="card sobresombra h-100">
                         <img class="card-img-top mb-3" src="img/grupo.webp" alt="">
-                        <div class="h-100 px-4 pb-4 ">
+                        <div class=" px-4 pb- ">
                             <h5 class="py-2 text-center fw-bold text-uppercase "> <i> Trabajo en Equipo </i></h5>
-                            <p> Los Equipos de Alto rendimiento se reconocen por su inmejorable situación de comunicación y por su extraordinario manejo de recursos que dan como resultado, empresas productivas y de vanguardia.   </p>
-                            <button type="button" class="btn btn-dark mt-0 mt-lg-5 fuera" data-bs-toggle="modal" data-bs-target="#trabajo">Ver más</button>
+                            <p class=""> Los Equipos de Alto rendimiento se reconocen por su inmejorable situación de comunicación y por su extraordinario manejo de recursos y herramientas que dan como resultado, empresas productivas y de vanguardia.   </p>
+                            <button type="button" class="btn btn-dark  fuera" data-bs-toggle="modal" data-bs-target="#trabajo">Ver más</button>
                         </div>
                     </div>
                 </div>
