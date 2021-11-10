@@ -179,11 +179,11 @@
                                                 <tr class="">
                                                     <td class="pe-1">
                                                         <input class="espacio" maxlength="200" type="text" id="NOMBRE" name="NOMBRE" autocomplete="off" placeholder="Nombre" data-required="true" required />
-                                                        <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:Helvetica, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-                                                        </label>
+                                                        
                                                     </td> 
                                                     <td>
                                                         <input class="espacio" maxlength="200" type="text" id="APELLIDOS" name="APELLIDOS" autocomplete="off" placeholder="Apellidos" data-required="true" required /> 
+                                                        
                                                     </td> 
                                                 </tr>
                                                 <tr>
@@ -404,28 +404,30 @@
                         <div class="  px-4 pb-4" >
                             <h5 class="py-2 text-center  fw-bold text-uppercase "> <i> Comunicación Efectiva</i></h5>
                             <p class=""> Las historias de conflicto terminaran cuando seamos responsables de lo que comunicamos, cómo lo hacemos, y de corroborar su veracidad, no se trata solo de transmitir, sino de crear una interacción con mensajes efectivos. </p>
-                            <button type="button" class="btn btn-dark  fuera" data-bs-toggle="modal" data-bs-target="#comunicacion">Ver más</button>
                         </div>
+                        <button type="button" class="btn btn-dark  fuera2" data-bs-toggle="modal" data-bs-target="#comunicacion">Ver más</button>
                     </div>
                 </div>
                 <div class="col mb-5">
                     <div class="card  sobresombra h-100">
                         <img class="card-img-top mb-3" src="img/liderazgo-mosaico.webp" alt="">
-                        <div class="px-4 pb-">
+                        <div class="px-4 pb-4">
                             <h5 class="py-2 text-center fw-bold text-uppercase"> <i>  Liderazgo Consciente </i></h5>
                             <p class=""> El mundo requiere de Líderes que integren el talento y lo orienten hacia proyectos de impacto social y humano, el Liderazgo Consciente es el manejo del potencial universal con fino de desarrollo y mejora constante.</p>
-                            <button type="button" class="btn btn-dark fuera " data-bs-toggle="modal" data-bs-target="#liderazgo">Ver más</button>
+                            
                         </div>
+                        <button type="button" class="btn btn-dark fuera2 " data-bs-toggle="modal" data-bs-target="#liderazgo">Ver más</button>
                     </div>
                 </div>
                 <div class="col mb-5 ">
                     <div class="card sobresombra h-100">
                         <img class="card-img-top mb-3" src="img/grupo.webp" alt="">
-                        <div class=" px-4 pb- ">
+                        <div class=" px-4 pb-4 ">
                             <h5 class="py-2 text-center fw-bold text-uppercase "> <i> Trabajo en Equipo </i></h5>
                             <p class=""> Los Equipos de Alto rendimiento se reconocen por su inmejorable situación de comunicación y por su extraordinario manejo de recursos y herramientas que dan como resultado, empresas productivas y de vanguardia.   </p>
-                            <button type="button" class="btn btn-dark  fuera" data-bs-toggle="modal" data-bs-target="#trabajo">Ver más</button>
+                            
                         </div>
+                        <button type="button" class="btn btn-dark  fuera2" data-bs-toggle="modal" data-bs-target="#trabajo">Ver más</button>
                     </div>
                 </div>
             </div>
@@ -520,7 +522,7 @@
     </section>
     <!--formulario moviles-->
     <section class="container-fluid py-5 aparece">
-        <div class="container py-5">
+        <div class="container ">
             <h2 class="text-center ">Contactános</h2>
             <div class="amarillo "></div>
             <iframe src="formulario.html" width="100%" height="500" frameborder="0 " scrolling="no">   </iframe>
@@ -530,14 +532,54 @@
     <section class="container-fluid  " style="background-color: #f0f0f0;">
         <div class="container pt-5 pb-3">
             <div class="row ">
-                <p class="text-uppercase text-center "> Logos de equipo de trabajo </p>
-                <div class="d-flex justify-content-center">
-                    <a href="https://cecaes.edu.mx/">
-                        <img class="lazyload img-fluid" src="img/cecaes.svg" alt="cecaes" width="100px" title="fullness">
-                    </a>
-                    <img class="lazyload img-fluid" src="" alt="" title="fullness">
-                    <img class="lazyload img-fluid" src="" alt="" title="fullness">
+                <div>
+                    <div  id="carousel4" class="carousel slide hero-slides d-flex justify-content-center " data-ride="carousel">
+                        <ol class="carousel-indicators ">
+                            <li class="active" data-target="#carousel4" data-slide-to="0"></li>
+                            <li data-target="#carousel4" data-slide-to="1"></li>
+                            <li data-target="#carousel4" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner  " role="listbox"  style="width: 50%;">
+                            <div class="carousel-item active "> 
+                                <div class="container  d-md-block">
+                                    <div class="caption  ">
+                                        <div class="row">
+                                            <div class="col  d-flex justify-content-evenly">
+                                                <img class="lazyload img-fluid" src="img/cecaes.svg" alt="cecaes" width="100px" title="fullness">
+                                                <img class="lazyload img-fluid" src="img/cecaes.svg" alt="cecaes" width="100px" title="fullness">
+                                                <img class="lazyload img-fluid" src="img/cecaes.svg" alt="cecaes" width="100px" title="fullness">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item "> 
+                                <div class="container  d-md-block">
+                                    <div class="caption  ">
+                                        <div class="row">
+                                            <div class="col d-flex d-flex justify-content-evenly ">
+                                                <img class="lazyload img-fluid" src="img/cecaes.svg" alt="cecaes" width="100px" title="fullness">
+                                                <img class="lazyload img-fluid" src="img/cecaes.svg" alt="cecaes" width="100px" title="fullness">
+                                                <img class="lazyload img-fluid" src="img/cecaes.svg" alt="cecaes" width="100px" title="fullness">
+                                            </div>
+
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <a class="carousel-control-prev " href="#carousel4" role="button" data-slide="prev" style="width: 5%;">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"  >   </span>
+                            <span class="visually-hidden ">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel4" role="button" data-slide="next" style="width: 5%;">
+                            <span class="carousel-control-next-icon" aria-hidden="true"> </span>
+                            <span class="visually-hidden">Next</span>
+                        </a>
+                    </div>
                 </div>
+                
             </div>
             <hr class="my-4">
             <small>
